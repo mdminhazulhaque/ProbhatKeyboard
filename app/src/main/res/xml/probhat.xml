@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+	android:horizontalGap="0px" android:keyHeight="48dp" android:keyWidth="7.6923%p"
+	android:verticalGap="0px">
+
+	<Row>
+		<Key android:keyEdgeFlags="left" android:keyLabel="`" />
+		<Key android:keyLabel="১" />
+		<Key android:keyLabel="২" />
+		<Key android:keyLabel="৩" />
+		<Key android:keyLabel="৪" />
+		<Key android:keyLabel="৫" />
+		<Key android:keyLabel="৬" />
+		<Key android:keyLabel="৭" />
+		<Key android:keyLabel="৮" />
+		<Key android:keyLabel="৯" />
+		<Key android:keyLabel="০" />
+		<Key android:keyLabel="-" />
+		<Key android:keyEdgeFlags="right" android:keyLabel="=" />
+	</Row>
+	<Row>
+		<Key android:keyEdgeFlags="left" android:keyLabel="দ" />
+		<Key android:keyLabel="ূ" />
+		<Key android:keyLabel="ী" />
+		<Key android:keyLabel="র" />
+		<Key android:keyLabel="ট" />
+		<Key android:keyLabel="এ" />
+		<Key android:keyLabel="ু" />
+		<Key android:keyLabel="ি" />
+		<Key android:keyLabel="ও" />
+		<Key android:keyLabel="প" />
+		<Key android:keyLabel="ে" />
+		<Key android:keyLabel="ো" />
+		<Key android:codes="-5" android:isRepeatable="true"
+			android:keyEdgeFlags="right" android:keyLabel="@string/label_del_key" />
+	</Row>
+	<Row>
+		<Key android:keyEdgeFlags="left" android:keyLabel="া" />
+		<Key android:keyLabel="স" />
+		<Key android:keyLabel="ড" />
+		<Key android:keyLabel="ত" />
+		<Key android:keyLabel="গ" />
+		<Key android:keyLabel="হ" />
+		<Key android:keyLabel="জ" />
+		<Key android:keyLabel="ক" />
+		<Key android:keyLabel="ল" />
+		<Key android:keyLabel=";" />
+		<Key android:keyLabel="\&apos;" />
+		<Key android:keyLabel="\\\" />
+		<Key android:codes="10" android:keyEdgeFlags="right"
+			android:keyLabel="@string/label_enter_key" />
+	</Row>
+	<Row android:rowEdgeFlags="bottom">
+		<Key android:codes="-3" android:keyEdgeFlags="left"
+			android:keyLabel="Done" />
+		<Key android:codes="-2" android:keyLabel="Alt" />
+		<Key android:keyLabel="য়" />
+		<Key android:keyLabel="শ" />
+		<Key android:keyLabel="চ" />
+		<Key android:keyLabel="আ" />
+		<Key android:keyLabel="ব" />
+		<Key android:keyLabel="ন" />
+		<Key android:keyLabel="ম" />
+		<Key android:keyLabel="," />
+		<Key android:keyLabel="।" />
+		<Key android:keyLabel="্" />
+		<Key android:codes="32" android:isRepeatable="true"
+			android:keyEdgeFlags="right" android:keyLabel="@string/label_space_key" />
+	</Row>
+
+</Keyboard>
